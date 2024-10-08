@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .navbar { background-color: #4CAF50; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
+        .navbar a { float: left; display: block; color: white; padding: 14px 20px; text-decoration: none; font-size: 17px; }
+        .navbar a:hover { background-color: #4CAF50; color: white; }
+        .navbar-right { float: right; }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .card-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 300px;
+            margin: 20px;
+            text-align: center;
+            font-family: Arial;
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: fix;
+  text-align: center;
+  font-family: arial;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .title {
+            color: grey;
+            font-size: 18px;
+        }
+
+        button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 10px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+            border-radius: 0 0 10px 10px;
+        }
+
+        button:hover {
+            opacity: 0.7;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 22px;
+            color: black;
+        }
+
+        a:hover {
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">City Info Hub</a>
+        <a href="map-integration.html">Map Integration</a>
+        <a href="login.html">Service Request</a>
+        <div class="navbar-right">
+            <a href="login.html">User Login</a>
+            <a href="adminlogn.html">Admin Login</a>
+            <a href="register.html">Register</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Welcome to the City Info Hub</h1>
+
+        <!-- Card Grid -->
+        <div class="card-grid">
+            <!-- Card 1 -->
+            <div class="card">
+                <img src="C:\Users\gunja\OneDrive\Desktop\project on city\smartcity html\image.png" alt="Public Services">
+                <h1>Public Services</h1>
+                <p class="title">A catalog of public services (e.g., waste management, public transportation, emergency services).</p>
+                <p><button>Explore</button></p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <img src="C:\Users\gunja\OneDrive\Desktop\project on city\smartcity html\infra.jpg">
+                <h1>Infrastructure</h1>
+                <p class="title">analyzing city infrastructure (roads, utilities, etc.).</p>
+                <p><button>Explore</button></p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+                <img src="C:\Users\gunja\OneDrive\Desktop\project on city\smartcity html\amen2.jpg">
+                <h1>Amenities</h1>
+                <p class="title">Information about parks, libraries, hospitals, schools, etc.</p>
+                <p><button>Explore</button></p>
+            </div>
+    </div>
+</body>
+</html>
